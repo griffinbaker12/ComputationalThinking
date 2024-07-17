@@ -147,6 +147,35 @@ element = 1
 # ╔═╡ b7964d91-fc4a-4ee1-8609-aa3f716a934d
 fill(element, 3, 4)
 
+# ╔═╡ ad1299fd-00d1-492b-9708-ecbd76da93bf
+v = [1,2,3]
+
+# ╔═╡ f67eba01-919c-4f80-9134-2b9a55cbc52c
+z = [1 2 3
+	 4 5 6
+]
+
+# ╔═╡ b0dc3c3c-e778-4195-adce-02def29a44fc
+size(z)
+
+# ╔═╡ 4d2ccb0e-851f-4024-addc-46be09b013ce
+z[2, 1]
+
+# ╔═╡ d04f0767-6ec1-4217-a295-6c4db035a9e5
+a = [1 2 3]
+
+# ╔═╡ 5569bb21-68ec-46b4-b928-6263c293a42f
+snoopy = load(download("https://m.media-amazon.com/images/I/51tfL1b7swL._AC_UF894,500_QL80_.jpg"))
+
+# ╔═╡ c3c03e7d-b75c-439c-bedb-915b55b6faaf
+corgi = load(download("https://www.akc.org/wp-content/uploads/2017/11/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall.jpg"))
+
+# ╔═╡ 1ef5481a-3e53-4b14-ad8e-47e962ca132f
+a4 = rand([corgi, snoopy], 5, 5)
+
+# ╔═╡ a4eede97-2e17-41b3-936b-9b6325e98225
+D = [i*j for i=1:5, j=1:5]
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -1364,5 +1393,14 @@ version = "17.4.0+2"
 # ╠═3bdc396f-060a-4cc7-a9b0-f09997087faf
 # ╠═9eed93df-6870-43e2-a0f4-cef997b9e173
 # ╠═b7964d91-fc4a-4ee1-8609-aa3f716a934d
+# ╠═ad1299fd-00d1-492b-9708-ecbd76da93bf
+# ╠═f67eba01-919c-4f80-9134-2b9a55cbc52c
+# ╠═b0dc3c3c-e778-4195-adce-02def29a44fc
+# ╠═4d2ccb0e-851f-4024-addc-46be09b013ce
+# ╠═d04f0767-6ec1-4217-a295-6c4db035a9e5
+# ╠═5569bb21-68ec-46b4-b928-6263c293a42f
+# ╠═c3c03e7d-b75c-439c-bedb-915b55b6faaf
+# ╠═1ef5481a-3e53-4b14-ad8e-47e962ca132f
+# ╠═a4eede97-2e17-41b3-936b-9b6325e98225
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
