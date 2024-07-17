@@ -141,6 +141,12 @@ size(new_phil), size(poor_phil)
 # ╔═╡ 3bdc396f-060a-4cc7-a9b0-f09997087faf
 blur_factor
 
+# ╔═╡ 9eed93df-6870-43e2-a0f4-cef997b9e173
+element = 1
+
+# ╔═╡ b7964d91-fc4a-4ee1-8609-aa3f716a934d
+fill(element, 3, 4)
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -1356,5 +1362,7 @@ version = "17.4.0+2"
 # ╠═b54d9cac-c1ac-4069-ad7f-273f7cd2699f
 # ╠═2a554da7-8e5b-4656-95f8-1ae8762bb6d1
 # ╠═3bdc396f-060a-4cc7-a9b0-f09997087faf
+# ╠═9eed93df-6870-43e2-a0f4-cef997b9e173
+# ╠═b7964d91-fc4a-4ee1-8609-aa3f716a934d
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
